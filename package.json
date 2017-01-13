@@ -1,0 +1,26 @@
+{
+  "name": "ipn_handler",
+  "version": "1.0.0",
+  "description": "Middleware for handling PayPal IPN requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LimaRocha19/IPN-Handler.git"
+  },
+  "author": "IRL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LimaRocha19/IPN-Handler/issues"
+  },
+  "homepage": "https://github.com/LimaRocha19/IPN-Handler#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "colors": "^1.1.2",
+    "express": "^4.14.0",
+    "querystring": "^0.2.0",
+    "request": "^2.79.0"
+  }
+}
